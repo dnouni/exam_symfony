@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbf15b6c-6f37-4f0e-8609-63a8300d9935" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/examenSymfony.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/examenSymfony.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BrandController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ListingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ListingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/brand/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/listing/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/listing/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/model/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/model/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +178,8 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
     </include_path>
   </component>
   <component name="ProjectId" id="2T6PGcCucZXip0iOizJH8eGXC6V" />
@@ -203,7 +219,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690360462607</updated>
-      <workItem from="1690360463952" duration="662000" />
+      <workItem from="1690360463952" duration="1440000" />
     </task>
     <servers />
   </component>
