@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Home {% endblock %}
+
+{% block body %}
+    <h1>Bienvenue dans la page Home</h1>
+
+    <a href="{{ path('app_brand_index') }}">voir toutes les marques</a>
+    <a href="{{ path('app_model_index') }}">voir tous les models</a>
+{% endblock %}

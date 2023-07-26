@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ListingController!{% endblock %}
+
+{% block body %}
+    <h1>Annonces</h1>
+
+    <div class="row">
+        {% for annonce in listing %}
+            <div class="card col-4">
+                <img class="card-img-top" src="{{ annonce.image }}" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">{{ annonce.model.brand.name }}</h4>
+                    <p class="card-text">{{ annonce.model.name }}</p>
+                    <p class="card-text">{{ annonce.producedYear }}</p>
+                    <p class="card-text">{{ annonce.mileage }}</p>
+                    <h6 class="card-text">{{ annonce.price/100 }}€</h6>
+                </div>
+            </div>
+        {% endfor %}
+
+    </div>
+
+
+{% endblock %}
