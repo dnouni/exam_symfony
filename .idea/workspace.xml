@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cbf15b6c-6f37-4f0e-8609-63a8300d9935" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_26_07_2023_08_55.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/examenSymfony.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/examenSymfony.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/back/BrandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BrandController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/back/ListingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ListingController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/back/ModelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ModelController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/front/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html.twig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +184,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HB\Desktop\symfony_kevin\examen\examenSymfony\src\Controller" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -204,7 +203,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690360462607</updated>
-      <workItem from="1690360463952" duration="336000" />
+      <workItem from="1690360463952" duration="662000" />
     </task>
     <servers />
   </component>
