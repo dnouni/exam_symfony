@@ -9,7 +9,7 @@
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Name</th>
+                <th>Nom</th>
                 <th>actions</th>
             </tr>
         </thead>
@@ -19,17 +19,19 @@
                 <td>{{ brand.id }}</td>
                 <td>{{ brand.name }}</td>
                 <td>
-                    <a href="{{ path('app_brand_show', {'id': brand.id}) }}">show</a>
-                    <a href="{{ path('app_brand_edit', {'id': brand.id}) }}">edit</a>
+                    <a href="{{ path('app_brand_show', {'id': brand.id}) }}">Consulter</a>
+                    <a href="{{ path('app_brand_edit', {'id': brand.id}) }}">Modifier</a>
+                    <a href="{{ path('app_brand_delete', {'id': brand.id}) }}">Supprimer</a>
+
                 </td>
             </tr>
         {% else %}
             <tr>
-                <td colspan="3">no records found</td>
+                <td colspan="3">Aucune donnée trouvée</td>
             </tr>
         {% endfor %}
         </tbody>
     </table>
 
-    <a href="{{ path('app_brand_new') }}">Create new</a>
+    <a href="{{ path('app_brand_new') }}">Ajouter une marque</a>
 {% endblock %}

@@ -13,20 +13,16 @@ use Symfony\Contracts\Translation\TranslatorInterface;
 
 
 
-#[Route('/listing')]
+#[Route('/listing', name: 'app_listing_')]
 class ListingController extends AbstractController
 {
 
-    private $translator;
-
-    #[Route('/', name: 'app_listing')]
-    public function index(ListingRepository $listingRepository): array
+    #[Route('/', name: 'index')]
+    public function index(ListingRepository $listingRepository): Response
     {
-
-        return $listingRepository->findAll('listing/index.html.twig', [
-            'controller_name' => 'ListingController',
+        return $this->render('listing/index.html.twig', [
+            'listing' => $listingRepository->findAll(),
         ]);
-
     }
 
     #[Route('/add', name: 'add', methods: ['GET', 'POST'])]
@@ -42,7 +38,7 @@ class ListingController extends AbstractController
             return $this->redirectToRoute('app_listing', [], Response::HTTP_SEE_OTHER);
         }
 
-        return $this->renderForm('listing/index.html.twig', [
+        return $this->renderForm('listing/_form.html.twig', [
             'listing' => $listing,
             'form' => $form,
         ]);
