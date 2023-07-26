@@ -5,12 +5,12 @@
 {% block body %}
     <h1>Bienvenue dans la page Home</h1>
 
-    <button type="button" class="btn btn-warning"><a href="{{ path('app_brand_index') }}"></a>Voir toutes les marques</button>
+    <a href="{{ path('app_brand_index') }}"><button type="button" class="btn btn-warning">Voir toutes les marques</button></a>
 
-    <button type="button" class="btn btn-dark"><a href="{{ path('app_model_index') }}"></a>
-        Voir tous les models</button>
+    <a href="{{ path('app_model_index') }}"><button type="button" class="btn btn-dark">Voir tous les models</button></a>
 
-    <button type="button" class="btn btn-warning"><a href="{{ path('app_listing_index') }}"></a>
-        Voir toutes les annonces</button>
+
+    <a href="{{ path('app_listing_index') }}"><button type="button" class="btn btn-warning">Voir toutes les annonces</button>
+    </a>
 
 {% endblock %}
