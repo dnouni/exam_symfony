@@ -1,0 +1,24 @@
+{
+  "entrypoints": {
+    "front_scripts": {
+      "js": [
+        "/build/runtime.js"
+      ]
+    },
+    "back_scripts": {
+      "js": [
+        "/build/runtime.js"
+      ]
+    },
+    "front_styles": {
+      "js": [
+        "/build/runtime.js"
+      ]
+    },
+    "back_styles": {
+      "js": [
+        "/build/runtime.js"
+      ]
+    }
+  }
+}

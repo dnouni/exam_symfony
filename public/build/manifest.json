@@ -1,0 +1,7 @@
+{
+  "build/front_scripts.js": "/build/front_scripts.js",
+  "build/back_scripts.js": "/build/back_scripts.js",
+  "build/front_styles.css": "/build/front_styles.css",
+  "build/back_styles.css": "/build/back_styles.css",
+  "build/runtime.js": "/build/runtime.js"
+}
