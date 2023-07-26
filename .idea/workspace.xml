@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cbf15b6c-6f37-4f0e-8609-63a8300d9935" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ListingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ListingController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ListingRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ListingRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/listing/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/listing/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ModelController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/model/index.html.twig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +206,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690360462607</updated>
-      <workItem from="1690360463952" duration="5602000" />
+      <workItem from="1690360463952" duration="6237000" />
     </task>
     <servers />
   </component>
