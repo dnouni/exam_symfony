@@ -5,6 +5,12 @@
 {% block body %}
     <h1>Bienvenue dans la page Home</h1>
 
-    <a href="{{ path('app_brand_index') }}">voir toutes les marques</a>
-    <a href="{{ path('app_model_index') }}">voir tous les models</a>
+    <button type="button" class="btn btn-warning"><a href="{{ path('app_brand_index') }}"></a>Voir toutes les marques</button>
+
+    <button type="button" class="btn btn-dark"><a href="{{ path('app_model_index') }}"></a>
+        Voir tous les models</button>
+
+    <button type="button" class="btn btn-warning"><a href="{{ path('app_listing_index') }}"></a>
+        Voir toutes les annonces</button>
+
 {% endblock %}
